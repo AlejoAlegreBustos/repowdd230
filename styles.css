@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly ;
+}
+.header_div{
+    text-shadow: 2px 1px black;
+    color: white;
+    background-color:rgb(188, 108, 37) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    align-items: center ;
+    font-family: Verdana;
+    font-size: large;
+    width: 55%;
+    height: 1%;
+    box-shadow: 5px 5px 1px 1px rgb(116, 99, 86) ;
+    border-radius: 50px 10px 50px 10px;
+    opacity: 75%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(67, 40, 24);
+}
+
+.header_img{
+
+    width: 180px;
+    height: auto;
+    order: 2;
+    filter: saturate(130%);
+    filter: contrast(130%);
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.main_title{
+    margin-top: 2%;
+    text-align: center;
+    font-family: Verdana;
+    text-shadow: 2px 1px grey;
+}
+
+.main_list{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ; 
+    margin-left: -300px;  
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center ;
+}
+.signature_copyright{
+    font-family: Verdana;
+    font-size: medium;
+    text-shadow: 2px 1px black;
+    color: white;
+    background-color:rgb(188, 108, 37) ;
+    width: 55%;
+    height: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 1px 1px rgb(116, 99, 86) ;
+    border-radius: 50px 10px 50px 10px;
+    opacity: 75%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(67, 40, 24);
+
+}
