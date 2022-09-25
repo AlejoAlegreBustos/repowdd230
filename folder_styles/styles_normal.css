@@ -5,6 +5,7 @@
     justify-content: space-evenly ;
 }
 .header_div{
+    padding: 1%;
     text-shadow: 2px 1px black;
     color: white;
     background-color:rgb(188, 108, 37) ;
@@ -17,7 +18,6 @@
     font-family: Verdana;
     font-size: large;
     width: 55%;
-    height: 1%;
     box-shadow: 5px 5px 1px 1px rgb(116, 99, 86) ;
     border-radius: 50px 10px 50px 10px;
     opacity: 75%;
@@ -29,7 +29,6 @@
 .header_img{
 
     width: 180px;
-    height: auto;
     order: 2;
     filter: saturate(130%);
     filter: contrast(130%);
