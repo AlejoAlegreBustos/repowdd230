@@ -1,0 +1,26 @@
+@media only screen and (min-width: 680px) and (max-width: 1150px){
+    .main{
+
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        align-items: flex-start;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    
+    
+    }
+
+    .m_div{
+
+        width: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    
+    }
+
+    .medium_view{
+        width: 80%;
+    }
+}
