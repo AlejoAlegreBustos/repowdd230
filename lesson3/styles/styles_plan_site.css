@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 2%;
+    background-color: #A2D6F9;
+    width: 80%;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+nav ul li {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center ;
+    margin-top: 2%;
+}
+.signature_copyright{
+    font-family: Verdana;
+    font-size: medium;
+    text-shadow: 2px 1px black;
+    color: black;
+    width: 55%;
+    height: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 1px 1px rgb(116, 99, 86) ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(67, 40, 24);
+
+}
+
+.pargf{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.titles{
+    font-family: 'Days One', sans-serif;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+
+}
+
+.primary{
+
+    width: 70px;
+    height: 40px;
+    background-color: #ffd100;
+    border-style: solid ;
+    border-width: 2px;
+
+}
+
+.secondary{
+
+    width: 70px;
+    height: 40px;
+    background-color: #333533;
+    border-style: solid ;
+    border-width: 2px;
+    color: #ffee32;
+
+}
+
+.accent1{
+
+    width: 70px;
+    height: 40px;
+    background-color: #ffee32;
+    border-style: solid ;
+    border-width: 2px;
+    color: #333533;
+
+}
+.accent2{
+
+    width: 70px;
+    height: 40px;
+    background-color: #d6d6d6;
+    border-style: solid ;
+    border-width: 2px;
+
+}
