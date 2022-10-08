@@ -2,8 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
-    background:linear-gradient(#979695,#ffffff);;
+    background:linear-gradient(#979695,#ffffff);
 }
 
 .header{
@@ -26,30 +25,45 @@ body{
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-top: 1%;
     background-color: #4a4c4d;
     width: 80%;
-    padding: 1%;
+    height: 80%;
 
 }
 .nav_bar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0;
+    padding-left: 0;
+    height: 100%;
+    margin: 0;
     
 }
 .nav_bar ul li {
     display: flex;
     flex-direction: row;
-    padding: 0;
     font-size: 30px;
-    background: linear-gradient(90deg, transparent, yellow, transparent) 
-bottom /
-    var(--d, 0) 3px no-repeat;
-transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
     
 }
+
+.nav_bar ul li:hover{
+
+    background-color: black;
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #fff025;
+    text-align: center;
+
+
+}
+
 .pargf{
     text-align: center;
     font-family: 'Roboto', sans-serif; 
@@ -59,7 +73,7 @@ transition: 0.5s;
 
 .titles{
     font-family: 'Corben', cursive;
-
+    text-align: center;
 }
 
 .footer{
@@ -67,16 +81,31 @@ transition: 0.5s;
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: center ;
-    margin-top: 2%;
-}
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color: #fff025;
+    height: 100%;
+    justify-content: space-between ;
+    border-style: solid;
+    border-color: #050505;
+    background-color: #4a4c4d;
+    align-items: center;
 
+}
+
+.pargf_footer{
+
+    order: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: large;
+    justify-content: flex-start;
+    margin-left: 2%;
+    color: #050505 ;
+}
+
+.img-f{
+
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
 
 }
-nav a:hover {
- 
-    --d: 75%;
-}
+
