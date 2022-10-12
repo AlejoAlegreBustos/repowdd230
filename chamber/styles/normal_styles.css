@@ -89,7 +89,7 @@ a:link, a:visited, a:active {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    justify-content: space-between ;
+    justify-content: flex-start ;
     border-style: solid;
     border-color: #050505;
     background-color: #4a4c4d;
