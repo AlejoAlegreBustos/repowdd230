@@ -4,7 +4,26 @@
         flex-wrap: wrap;
     }
 
-    .nav_bar{
+    nav button{
+
+    display: none;
+    }
+  
+    nav ul#primaryNav{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    /* .nav_bar{
 
         margin: 0 auto;
         max-width: 760px;
@@ -35,6 +54,15 @@
         font-size: clamp(1rem, 2vmin, 1.5rem);
     
     }
+
+    .nav_bar ul a.ham::before {
+        content: "🍔 ";
+    }
+    
+    .nav_bar ul a:hover {
+        color: white;
+        background-color: black;
+    }
     .responsive li {
         display: block;
     }
@@ -48,14 +76,7 @@
         flex-wrap: wrap;
 
     }
-    
-    .nav_bar ul a.ham::before {
-        content: "🍔 ";
-    }
-    
-    .nav_bar ul a:hover {
-        color: white;
-        background-color: black;
-    }
+     */
+
 }
 

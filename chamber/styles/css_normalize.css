@@ -347,3 +347,6 @@
   [hidden] {
     display: none;
   }
+  nav ul {
+    padding-inline-start: 0px;
+  }
