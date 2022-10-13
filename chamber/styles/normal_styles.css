@@ -86,10 +86,10 @@ a:link, a:visited, a:active {
 
 .footer{
 
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
-    justify-content: space-evenly ;
+    justify-content: space-around ;
     border-style: solid;
     border-color: #050505;
     background-color: #4a4c4d;
@@ -109,8 +109,7 @@ footer a:link{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: large;
-    justify-content: flex-start;
-    margin-left: 2%;
+    align-items: stretch;
     color: #ffe923 ;
 }
 
