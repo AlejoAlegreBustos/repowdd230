@@ -52,6 +52,7 @@ nav ul li {
     font-size: 30px;
     justify-content: center;
     width: 100%;
+    border:rgb(99, 98, 98) solid 0.05px;
 
 
 }
@@ -85,15 +86,20 @@ a:link, a:visited, a:active {
 
 .footer{
 
-    display: flex;
-    flex-direction: row;
+    display: block;
     width: 100%;
     height: 100%;
-    justify-content: flex-start ;
+    justify-content: space-evenly ;
     border-style: solid;
     border-color: #050505;
     background-color: #4a4c4d;
     align-items: center;
+
+}
+footer a:link{
+
+    width: 5%;
+
 
 }
 
@@ -111,8 +117,10 @@ a:link, a:visited, a:active {
 .img-f{
 
     justify-content: flex-end;
+    align-items: flex-end;
     width: 50px;
     height: 50px;
+    background: linear-gradient(#4a4c4d,#999999);
 
 }
 
