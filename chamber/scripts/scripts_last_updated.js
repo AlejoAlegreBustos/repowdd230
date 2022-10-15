@@ -1,2 +1,8 @@
 let oLastModif = new Date(document.lastModified)
-document.querySelector('#date').textContent=oLastModif
+
+let day = oLastModif.getDate()
+let month =oLastModif.getMonth()
+let year= oLastModif.getFullYear()
+let div="/"
+
+document.querySelector('#date').textContent= month + div + day + div + year

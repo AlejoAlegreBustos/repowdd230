@@ -350,3 +350,6 @@
   nav ul {
     padding-inline-start: 0px;
   }
+  html{
+    margin: 0;
+  }
