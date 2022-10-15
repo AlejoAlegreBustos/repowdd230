@@ -1,8 +1,4 @@
 @media only screen and (max-width: 680px) {
-    .body{
-
-        margin: 0px;
-    }
     
     .header{
         flex-direction: row;
@@ -10,9 +6,20 @@
     }
 
     .title_h{
-        font-size: 35px;
+        font-size: 140%;
     }
-    
+    #contain_nav{
+
+        align-items: center;
+        margin-right: 5%;
+
+    }
+    header .img-logo{
+        margin-left: -19%; 
+        margin-bottom:-4%;
+        width: 15%;
+        height: 50%;        
+    }
     nav button{
         display: block;
         margin: 1%;
@@ -26,10 +33,8 @@
     nav{
 
         display: flex;
-        width: 100%;
         flex-direction: column;
-
-
+        border: none;
 
     }
     nav ul{
@@ -38,15 +43,20 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
+        text-align: left;
     }
-
+    nav ul li{
+        font-size: 90%;
+        border: none;
+        text-align: left;
+        width: 95%;
+    }
     nav ul li a {
-
+        text-align: left;
         display: block;
         padding: 1%;
         text-decoration: none;
         color: rgb(255, 240, 37);
-        border-top:0.5px solid rgba(0, 0, 0, 0.5) ;
         width: 100%;
     }
 
@@ -62,24 +72,17 @@
         display: block;
     }
     #social{
-        margin-right: -55px;
+        margin-right: -20%;
         margin-top: 3%;
     }
     
     #img-f{ 
         width: 35px;
         height: 35px;
-    
-    }
-    .footer-L{
-        margin: 0px;
     }
 
-    #img-log{
-        margin-left: -10%;
-        margin-bottom:-4%;
-        width: 10%;
-        height: 100%;
+    .footer-L{
+        margin: 0px;
     }
 
     #branch-a{
@@ -93,7 +96,7 @@
     }
 
     #project_inf{
-        font-size: x-small; 
+        font-size: 27%;
         align-items: center;
         align-content: flex-end;
         margin-bottom: -12%;

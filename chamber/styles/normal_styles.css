@@ -38,7 +38,7 @@ body{
     font-family: 'Comfortaa', cursive;
 }
 
-.img-logo{
+header .img-logo{
     order: 0;
     align-self: center;
     margin-left: -8%;
@@ -46,7 +46,7 @@ body{
     height: 30%;
     float: left;
     filter:drop-shadow(1px 1px 3px rgb(7, 7, 7));
-    image-rendering: optimizeQuality;
+
     
 }
 
@@ -80,7 +80,8 @@ nav{
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    text-align: left;
     margin: 0;
     width: 100%;
 
@@ -102,21 +103,18 @@ nav ul li {
 nav ul li:hover{
 
     background-color: black;
+    width: 94%;
 
 }
 
-nav ul li#active {
-    border-bottom:5px solid #fff025;
 
-
-}
 
 nav a:link, nav a:visited, nav a:active {
     text-decoration:none;
     color: #fff025;
     text-align: center;
     width: 100%;
-
+    align-items: center;
 
 }
 
@@ -192,7 +190,7 @@ footer #information a:link, footer #information a:visited, footer #information a
  
 
 }
-#img-log{
+#img-log-f{
 
     width: 10%;
     height: 100%;
