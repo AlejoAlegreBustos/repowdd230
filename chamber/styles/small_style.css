@@ -77,40 +77,42 @@
 
     #img-log{
         margin-left: -10%;
-
+        margin-bottom:-4%;
         width: 10%;
         height: 100%;
     }
 
     #branch-a{
 
-        font-size: xx-small;
-        margin-top: -2%;
+        font-size: 27%;
+        margin-top: 5%;
     
     }
     .pargf_footer{
-        font-size: x-small; 
+        font-size: 27%;
     }
 
     #project_inf{
         font-size: x-small; 
         align-items: center;
         align-content: flex-end;
-        margin-bottom: -70px;
+        margin-bottom: -12%;
         padding-bottom: 3%;
     }
 
     footer #information a:link, footer #information a:visited, footer #information a:active{
-        font-size: xx-small;
+        font-size: 27%;
+        
 
 
     }
     #information{
-        margin-bottom: -2%;
-        margin-right: -10%;
+        width: min-content;
+        margin-top: 3%;
+        margin-right: -2%;
         margin-left: 5%;
-        font-size: xx-small;
-        text-align: left;
+        font-size: 27%;
+        text-align: center;
     }
 
 }
