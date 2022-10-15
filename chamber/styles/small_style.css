@@ -1,10 +1,18 @@
 @media only screen and (max-width: 680px) {
+    .body{
+
+        margin: 0px;
+    }
     
     .header{
         flex-direction: row;
         flex-wrap: wrap;
     }
 
+    .title_h{
+        font-size: 35px;
+    }
+    
     nav button{
         display: block;
         margin: 1%;
@@ -53,62 +61,56 @@
     nav ul.open{
         display: block;
     }
-    /* .nav_bar{
-
-        margin: 0 auto;
-        max-width: 760px;
-        background-color: #4a4c4d;
+    #social{
+        margin-right: -55px;
+        margin-top: 3%;
+    }
+    
+    #img-f{ 
+        width: 35px;
+        height: 35px;
     
     }
-
-    .nav_bar ul{
-        list-style: none;
-        padding: 0;
-    }
-    .nav_bar ul li{
-        display: none;
+    .footer-L{
+        margin: 0px;
     }
 
-    .nav_bar ul li:first-child {
-        display: block;
-    }
-    .nav_bar ul a{
+    #img-log{
+        margin-left: -10%;
 
-        display: block;
-        padding: 0.75rem;
+        width: 10%;
+        height: 100%;
+    }
+
+    #branch-a{
+
+        font-size: xx-small;
+        margin-top: -2%;
+    
+    }
+    .pargf_footer{
+        font-size: x-small; 
+    }
+
+    #project_inf{
+        font-size: x-small; 
+        align-items: center;
+        align-content: flex-end;
+        margin-bottom: -70px;
+        padding-bottom: 3%;
+    }
+
+    footer #information a:link, footer #information a:visited, footer #information a:active{
+        font-size: xx-small;
+
+
+    }
+    #information{
+        margin-bottom: -2%;
+        margin-right: -10%;
+        margin-left: 5%;
+        font-size: xx-small;
         text-align: left;
-        text-decoration: none;
-        color: black;
-        font-weight: 700;
-        transition: 0.5s;
-        font-size: clamp(1rem, 2vmin, 1.5rem);
-    
     }
-    .responsive li {
-        display: block;
-    }
-    
-    .responsive a.ham::before {
-        content: "❌ ";
-    }
-    
-
-    .footer{
-
-        flex-wrap: wrap;
-
-    }
-
-    
-    .nav_bar ul a.ham::before {
-        content: "🍔 ";
-    }
-    
-    .nav_bar ul a:hover {
-        color: white;
-        background-color: black;
-    }
-}
- */ 
 
 }
