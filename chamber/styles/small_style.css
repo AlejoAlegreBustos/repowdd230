@@ -3,6 +3,7 @@
     .header{
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .title_h{
@@ -116,6 +117,26 @@
         margin-left: 5%;
         font-size: 27%;
         text-align: center;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        border: 1px solid black;
+        width: 70%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+
     }
 
 }
