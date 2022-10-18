@@ -13,7 +13,8 @@
     #contain_nav{
 
         align-items: center;
-        margin-right: 5%;
+        margin-right: 10%;
+
 
     }
     header .img-logo{
@@ -118,24 +119,19 @@
         text-align: center;
     }
 
-    main{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-
-        
-    }
     .contenedor{
         display: flex;
         flex-direction: column;
         background-color:transparent;
+        box-shadow: 1px 1px 1px 1px rgb(6, 6, 6);
         /* border: 1px solid black; */
         width: 70%;
         margin-top: 3%;
         margin-bottom: 3%;
+        
 
     }
+
+
 
 }

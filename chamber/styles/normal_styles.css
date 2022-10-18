@@ -231,3 +231,36 @@ footer #information a:link, footer #information a:visited, footer #information a
 
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+   
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    box-shadow: 1px 1px 1px 1px rgb(6, 6, 6);
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.contenedor h2 {
+
+    color: #ffe923;
+    text-shadow: 1px 1px 1px  black;
+
+}
+
+.contenedor h2:hover {
+
+    color: #080808;
+
+
+}
