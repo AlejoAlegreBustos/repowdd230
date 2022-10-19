@@ -133,6 +133,13 @@
 
     }
 
+    #weather img{
+        max-width: 50%;
+        max-height: 50%;
+        filter:drop-shadow(1px 1px 10px rgb(255, 107, 2));
+        align-self: center;
+    }
+
     #div_added{
 
         font-size: 50%;
