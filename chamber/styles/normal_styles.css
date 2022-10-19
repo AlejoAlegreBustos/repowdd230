@@ -221,6 +221,7 @@ footer #information a:link, footer #information a:visited, footer #information a
     font-family: 'Roboto', sans-serif;
     font-size: large;
     color: #ffe923 ;
+    
 
 
 }
@@ -255,12 +256,8 @@ main{
 
     color: #ffe923;
     text-shadow: 1px 1px 1px  black;
+    text-align: center;
 
 }
 
-.contenedor h2:hover {
 
-    color: #080808;
-
-
-}
