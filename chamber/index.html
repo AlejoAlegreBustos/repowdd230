@@ -145,9 +145,14 @@
       <img class="img-style" src="images/sol_low.webp" alt="images" />
 
       <h2>Sunny</h2>
-      <h2>Wind Speed:  2.5 km/h</h3>
-      <h2>Max Temp: 29°C</h2>
-      <h2>Min Temp: 22°C</h2>
+      <label>Enter the current temperature<br>
+      <input type="text" id="Temp" placeholder="farentheid" required></label>
+      <label>Enter the current wind Speed<br>
+      <input type="text" id="wind_s" placeholder="mph" required></label>
+      <button id="button" type="submit">Calculate</button>
+      <h2 id="temp2"></h2>
+      <h2 id="wind_s2"></h3>
+      <h2 id="wind_chill"></h2>
     </div>
 
   </main>
@@ -186,6 +191,7 @@
     <script src="scripts/just_tuesdays.js"></script>
     <script src="scripts/scripts_last_updated.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
   </footer>
 </body>
 
