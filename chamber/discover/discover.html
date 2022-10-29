@@ -1,0 +1,131 @@
+<!-- ► Add a "discover.html" page that, in part, will display at least five images about the city/town. 
+Each image should have a brief description and should take up only one column in larger views. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Discover us</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/styles-smallview.css">
+  <link rel="stylesheet" href="../styles/css_normalize.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div id="social">
+
+      <img class="img-logo" src="../images/logo.webp" alt="Logo-page" />
+
+      <div id="div_h">
+        <h1 class="title_h">Discover us </h1>
+      </div>
+
+      <a href="https://www.facebook.com/" target="_blank">
+        <img id="img-f" src="../images/facebook-logo-1-2.webp " alt="logo facebook" />
+      </a>
+
+      <a href="https://www.instagram.com/" target="_blank">
+        <img id="img-f" src="../images/instagram-logo-16.webp" alt="logo instagram" />
+      </a>
+    </div>
+    <div id="contain_nav">
+        <nav>
+          <button id="hamBtn">&#9776;</button>
+          <ul id="primaryNav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a id="active" href="discover.html">Discover</a></li>
+            <li><a href="#">Color</a></li>
+            <li><a href="#">Typography</a></li>
+          </ul> 
+        </nav>
+      </div>
+  </header>
+  <main class="main">
+
+    <h1>
+            usig lazyload with six images
+    </h1>
+
+    <picture>
+
+        <img class="lazy" data-src="https://media-cdn.tripadvisor.com/media/photo-o/0c/3c/aa/40/photo1jpg.jpg" placeholder="placeholder">
+        <p></p>
+    </picture>
+
+    <picture>
+
+      <img class="lazy" data-src="https://media-cdn.tripadvisor.com/media/photo-p/1b/85/b2/58/buenoshutrip-i-buenosaires.jpg" placeholder="placeholder">
+      <p></p>
+    </picture>
+
+    <picture>
+
+      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/5.png.webp" placeholder="placeholder">
+      <p></p>
+    </picture>
+
+    <picture>
+
+      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/10.png.webp" placeholder="placeholder">
+      <p></p>
+    </picture>
+
+    <picture>
+
+      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/7.png.webp" placeholder="placeholder">
+      <p></p>
+    </picture>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-L">
+      <img id="img-log-f" src="../images/logo.webp" alt="Logo-page" />
+      <div id="branch-a">
+        <h1>
+          Chmaber Commerce Argentina
+        </h1>
+        <p class="pargf_footer">Avenida Siempreviva 742, Provincia de Buenos Aires, Argentina</p>
+      </div>
+
+      <div id="information">
+
+        <h1 class="pargf_footer">Contact us </h1>
+        <a href="https://www.google.com/maps/dir/-34.5596286,-58.7030437/Argentina+Chamber+of+Commerce+and+Services/@-34.547352,-58.6770947,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x95a3352cde5aaa3b:0x8f92d6a50eb9ec0!2m2!1d-58.3704218!2d-34.6066332">
+          📍 Map Location</a>
+        <a href="mailto:ale21020@byui.com">ale21020@byui.com</a>
+        <a href="tel:+543426446532">+543426446532</a>
+
+      
+      </div>
+
+    </div>
+
+
+    <div id="project_inf" class="footer-L">
+      <h1 class="pargf_footer"> &copy; CHAMBER COMMERCE </h1>
+      <p class="pargf_footer"> Alejo Alegre Bustos - WDD 230 Project</p> 
+      <span id="date" class="pargf_footer"></span> Last updated
+    </div>
+      
+
+    <script src="../scripts/script.js"></script>
+    <script src="scripts/lazyload.js"></script>
+  </footer>
+</body>
+
+</html>
