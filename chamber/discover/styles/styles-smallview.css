@@ -154,13 +154,15 @@ nav ul.open{
 
 picture{
 
-    width: 400px;
-    height: 300px;
-    margin: 10%;
+    max-width: 40px;
+    max-height: 30px;
+    margin: 50%;
     align-self: center;
 
 }
 
-.lazy{
-    width: 5%;
+picture .lazy[data-src]{
+    max-width: 50%;
+    max-height: 50%;
+    margin: 10%;
 }
