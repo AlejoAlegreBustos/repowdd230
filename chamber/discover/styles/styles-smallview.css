@@ -147,11 +147,14 @@ nav ul.open{
     max-width: max-content;
 }
  
-.main h1{
+.main .today{
 
     font-family: 'Roboto', sans-serif;
-    font-size: 130%;
+    font-size: 100%;
     text-align: center;
+    color: #fff025;
+    filter:drop-shadow(1px 1px 3px rgb(7, 7, 7));
+
 
 }
 
@@ -159,18 +162,30 @@ picture{
 
     width: 90%;
     height: 90%;
-    margin: 10% 0% 10% 0%;
-    align-self: center;
-}
-
-.lazyy{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 10% 0% 10% 0%;
+    margin: 10% 10% 10% 10%;
+    background-color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    font-family:  cursive;
+    border-radius: 2% 2% 2% 2%;
+    border-bottom: rgba(0, 0, 0, 0.459);
+    border-style: groove;
     
 }
-picture .lazy img:hover{
-    box-shadow: black 1px 1px 1px ;
+picture p{
+    filter:drop-shadow(1px 1px 3px rgba(7, 7, 7, 0.404));
+}
+.lazyy{
+    max-width: 90%;
+    max-height: 90%;
+    margin: 10% 0% 10% 6%;
+    box-shadow:  -1em 0 0.4em rgb(41, 41, 40);
+    
+    
+}
+.lazyy:hover{
+    max-width: 100%;
+    max-height: 100%;
 }
 .footer{
     width: 100%;
@@ -213,11 +228,14 @@ picture .lazy img:hover{
 
 footer #information a:link, footer #information a:visited, footer #information a:active{
     font-size: 27%;
-    
+    text-decoration: none;
+    color: #fff025;
+    font-family: 'Roboto', sans-serif;
 }
 #information{
-    align-self: flex-start;
-    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
     margin: 5% 5% 5% 3%;
     font-size: 27%;
     text-align: center;
@@ -227,12 +245,13 @@ footer #information a:link, footer #information a:visited, footer #information a
     display: flex;
     flex-direction: column;
     background-color:transparent;
-    box-shadow: 1px 1px 1px 1px rgb(6, 6, 6);
-    /* border: 1px solid black; */
+    border: #0c0c0c8a 1px hidden;
     max-width: 100%;
     max-height: 50%;
     margin-top: 3%;
     margin-bottom: 3%;
+    border-style: groove;
+    background:linear-gradient(#ffffff6c,#7373738c);
     
 
 }
