@@ -20,12 +20,14 @@ Each image should have a brief description and should take up only one column in
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
   <link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="styles/styles-smallview.css">
-  <link rel="stylesheet" href="../styles/css_normalize.css">
+  <link rel="stylesheet" href="styles/styles-mediumview.css">
+
 </head>
 
 <body>
 
   <header class="header">
+
     <div id="social">
 
       <img class="img-logo" src="../images/logo.webp" alt="Logo-page" />
@@ -41,21 +43,28 @@ Each image should have a brief description and should take up only one column in
       <a href="https://www.instagram.com/" target="_blank">
         <img id="img-f" src="../images/instagram-logo-16.webp" alt="logo instagram" />
       </a>
+
     </div>
+
     <div id="contain_nav">
-        <nav>
-          <button id="hamBtn">&#9776;</button>
-          <ul id="primaryNav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a id="active" href="discover.html">Discover</a></li>
-            <li><a href="#">Color</a></li>
-            <li><a href="#">Typography</a></li>
-          </ul> 
-        </nav>
-      </div>
-      <div style="margin: 0px; padding: 0px;">
-        <h6 class="visits" style="font-family: 'Roboto', sans-serif;font-size: 100%;"></h6>
-      </div>
+
+      <nav>
+        <button id="hamBtn">&#9776;</button>
+        <ul id="primaryNav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a id="active" href="discover.html">Discover</a></li>
+          <li><a href="#">Color</a></li>
+          <li><a href="#">Typography</a></li>
+        </ul> 
+      </nav>
+
+    </div>
+
+    <div style="margin: 0px; padding: 0px;">
+      <h6 class="visits" style="font-family: 'Roboto', sans-serif;font-size: 100%;"></h6>
+    </div>
+
+    
   </header>
   <main class="main">
 
@@ -77,7 +86,7 @@ Each image should have a brief description and should take up only one column in
       <source media="(max-width:400px )" srcset="images/puerto_madero-vw-small.webp">
       <source media="(max-width:475px )" srcset="images/puerto_madero-vw-medium.webp">
       <source media="(max-width:1000px )"  srcset="images/puerto_madero.webp">
-      <img class="lazy lazyy" data-src="images/puerto_madero.webp" data-src="images\placeholder.webp" placeholder="placeholder">
+      <img class="lazy lazyy" data-src="images/puerto_madero.webp" src="images\placeholder.webp" placeholder="placeholder">
       <p>Puerto Madero is a renovated area near the pier. Its converted red-brick buildings contain upscale steakhouses popular with tourists and business lunches alike. 
         Sleek skyscrapers house multinational corporations and high-value apartments. 
         The trails wind through several lakes in the rich Costanera Sur Ecological Reserve, 
@@ -87,8 +96,8 @@ Each image should have a brief description and should take up only one column in
     <picture>
       <source media="(max-width:400px )" srcset="images/el_obelisco-vw-small.webp">
       <source media="(max-width:475px )" srcset="images/el_obelisco-vw-medium.webp">
-      <source media="(max-width:1000px )"  srcset="images/el_obelisco.webp">
-      <img class="lazy lazyy" data-src="images/el_obelisco.webp" data-src="images\placeholder.webp" placeholder="placeholder">
+      <source media="(max-width:1000px )" srcset="images/el_obelisco.webp">
+      <img class="lazy lazyy" data-src="images/el_obelisco.webp" src="images\placeholder.webp" placeholder="placeholder">
       <p>The Obelisk of Buenos Aires is a historical monument considered an icon of the Autonomous City of Buenos Aires, the capital of Argentina. 
         It was built in 1936 on the occasion of the fourth centenary of the so-called first foundation of Buenos Aires by Pedro de Mendoza.</p>
     </picture>
@@ -96,8 +105,8 @@ Each image should have a brief description and should take up only one column in
     <picture>
       <source media="(max-width:400px )" srcset="images/tigre-vw-small.webp">
       <source media="(max-width:475px )" srcset="images/tigre-vw-medium.webp">
-      <source media="(max-width:1000px )"  srcset="images/tigre.webp">
-      <img class="lazy lazyy" data-src="images/tigre.webp" data-src="images\placeholder.webp" placeholder="placeholder">
+      <source media="(max-width:1000px )" srcset="images/tigre.webp">
+      <img class="lazy lazyy" data-src="images/tigre.webp" src="images\placeholder.webp" placeholder="placeholder">
       <p>Tigre is an Argentine city just north of the city of Buenos Aires. It is an access road to the rivers and swamps of the vast Paraná delta. The city's old Puerto de Frutos is now a busy craft market. 
         Nearby is the Museo del Mate, which traces the history of the traditional Argentine infusion and has a mate bar. 
         Rowing clubs and restaurants line Paseo Victorica, a riverside boardwalk.</p>
@@ -106,8 +115,8 @@ Each image should have a brief description and should take up only one column in
     <picture>
       <source media="(max-width:400px )" srcset="images/sementerio_recoleta-vw-small.webp">
       <source media="(max-width:475px )" srcset="images/sementerio_recoleta-vw-medium.webp">
-      <source media="(max-width:1000px )"  srcset="images/sementerio_recoleta.webp">
-      <img class="lazy lazyy" data-src="images/sementerio_recoleta.webp" data-src="images\placeholder.webp"  bplaceholder="placeholder">
+      <source media="(max-width:1000px )" srcset="images/sementerio_recoleta.webp">
+      <img class="lazy lazyy" data-src="images/sementerio_recoleta.webp" src="images\placeholder.webp"  placeholder="placeholder">
       <p>The Recoleta Cemetery is a famous cemetery in the city of Buenos Aires, Argentina. 
         It is located in the Recoleta neighborhood and contains the tombs of well-known people.</p>
     </picture>
@@ -121,7 +130,7 @@ Each image should have a brief description and should take up only one column in
         <h1>
           Chmaber Commerce Argentina
         </h1>
-        <p class="pargf_footer">Avenida Siempreviva 742, Provincia de Buenos Aires, Argentina</p>
+        <p>Avenida Siempreviva 742, Provincia de Buenos Aires, Argentina</p>
       </div>
 
       <div id="information">
@@ -145,7 +154,7 @@ Each image should have a brief description and should take up only one column in
     </div>
       
 
-    <script src="../scripts/script.js"></script>
+    <script src="scripts/ham_btn_script.js"></script>
     <script src="../scripts/scripts_last_updated.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/amout_visits_today.js"></script>
