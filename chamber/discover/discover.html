@@ -64,38 +64,48 @@ Each image should have a brief description and should take up only one column in
     </h1>
 
     <picture>
-
-        <img class="lazy" data-src="https://media-cdn.tripadvisor.com/media/photo-o/0c/3c/aa/40/photo1jpg.jpg" placeholder="placeholder">
+        <source media="(max-width:400px )" srcset="images/teatro_colon-vw-small.webp">
+        <source media="(max-width:475px )" srcset="images/teatro_colon-vw-medium.webp">
+        <source media="(max-width:1000px )"  srcset="images/teatro_colon.webp">
+        <img class="lazy lazyy" data-src="images/teatro_colon.webp" src="images\placeholder.webp" placeholder="placeholder">
         <p></p>
     </picture>
 
     <picture>
-
-      <img class="lazy" data-src="https://media-cdn.tripadvisor.com/media/photo-p/1b/85/b2/58/buenoshutrip-i-buenosaires.jpg" placeholder="placeholder">
+      <source media="(max-width:400px )" srcset="images/puerto_madero-vw-small.webp">
+      <source media="(max-width:475px )" srcset="images/puerto_madero-vw-medium.webp">
+      <source media="(max-width:1000px )"  srcset="images/puerto_madero.webp">
+      <img class="lazy lazyy" data-src="images/puerto_madero.webp" data-src="images\placeholder.webp" placeholder="placeholder">
       <p></p>
     </picture>
 
     <picture>
-
-      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/5.png.webp" placeholder="placeholder">
+      <source media="(max-width:400px )" srcset="images/el_obelisco-vw-small.webp">
+      <source media="(max-width:475px )" srcset="images/el_obelisco-vw-medium.webp">
+      <source media="(max-width:1000px )"  srcset="images/el_obelisco.webp">
+      <img class="lazy lazyy" data-src="images/el_obelisco.webp" data-src="images\placeholder.webp" placeholder="placeholder">
       <p></p>
     </picture>
 
     <picture>
-
-      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/10.png.webp" placeholder="placeholder">
+      <source media="(max-width:400px )" srcset="images/tigre-vw-small.webp">
+      <source media="(max-width:475px )" srcset="images/tigre-vw-medium.webp">
+      <source media="(max-width:1000px )"  srcset="images/tigre.webp">
+      <img class="lazy lazyy" data-src="images/tigre.webp" data-src="images\placeholder.webp" placeholder="placeholder">
       <p></p>
     </picture>
 
     <picture>
-
-      <img class="lazy" data-src="https://travel-guide.daytours4u.com/es/wp-content/uploads/sites/3/2020/04/7.png.webp" placeholder="placeholder">
+      <source media="(max-width:400px )" srcset="images/sementerio_recoleta-vw-small.webp">
+      <source media="(max-width:475px )" srcset="images/sementerio_recoleta-vw-medium.webp">
+      <source media="(max-width:1000px )"  srcset="images/sementerio_recoleta.webp">
+      <img class="lazy lazyy" data-src="images/sementerio_recoleta.webp" data-src="images\placeholder.webp"  bplaceholder="placeholder">
       <p></p>
     </picture>
 
   </main>
 
-  <footer class="footer">
+  <footer class="contenedor">
     <div class="footer-L">
       <img id="img-log-f" src="../images/logo.webp" alt="Logo-page" />
       <div id="branch-a">
@@ -119,7 +129,7 @@ Each image should have a brief description and should take up only one column in
     </div>
 
 
-    <div id="project_inf" class="footer-L">
+    <div id="project_inf">
       <h1 class="pargf_footer"> &copy; CHAMBER COMMERCE </h1>
       <p class="pargf_footer"> Alejo Alegre Bustos - WDD 230 Project</p> 
       <span id="date" class="pargf_footer"></span> Last updated
@@ -127,6 +137,7 @@ Each image should have a brief description and should take up only one column in
       
 
     <script src="../scripts/script.js"></script>
+    <script src="../scripts/scripts_last_updated.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/amout_visits_today.js"></script>
   </footer>
