@@ -1,0 +1,152 @@
+@media only screen and (min-width: 500px) and (max-width: 1000px){
+    body{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+    }
+    .header{
+        justify-content: center;
+        margin: 0% 6% 0% 0%;
+    }
+
+    .img-logo{
+
+        margin-left: 5%;
+
+    }
+    #social{
+        display: flex;
+        flex-direction: row;
+        order: 0;
+        margin-right: -20%;
+        margin-top: 3%;
+        align-self: stretch;
+        align-items: center;
+    }
+    
+    #div_h{
+        font-size: 120%;
+        text-align: center;
+        margin: 0% 15% 0% 15%;
+    }
+    a #img-f{ 
+        width: 100%;
+        height: 100%;   
+    }
+    
+    #img-f{ 
+        width: max-content;
+        height: max-content;
+        
+    }
+    #contain_nav{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        order: 0;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    }
+
+    nav button{
+
+        display: none;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        background-color: #4a4c4d;
+        justify-content: space-between;
+        width: 85vw;
+        margin: 4% 0% 0% 10%;
+        
+    
+    
+    
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        margin: 0;
+        width: 100%;
+    
+    
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        font-size: 150%;
+        justify-content: center;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    
+    nav ul li:hover{
+    
+        background-color: black;
+        width: 94%;
+    
+    }
+    
+    
+    
+    nav a:link, nav a:visited, nav a:active {
+        text-decoration:none;
+        color: #fff025;
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        margin-right: 5%;
+        justify-content: center;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .main .today{
+        font-size: 200%;
+    }
+
+    picture{
+        width: 70%;
+        height: 70%;
+        border-bottom: rgb(0, 0, 0);
+    }
+
+    #branch-a h1{
+        font-size: 200%;
+        margin: 5% 0% 0% 0%;
+    }
+
+    #branch-a p{
+        font-size: 130%;
+        margin: 5% 0% 0% 0%;
+    }
+
+    #img-log-f{
+        margin: 1%;
+        width: 13%;
+        height: 13%;
+
+    }
+    .pargf_footer{
+        font-size: 120%;
+    }
+}
+        
