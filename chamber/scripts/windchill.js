@@ -16,4 +16,4 @@ function calculate_wc(){
     }
 }
 
-button_submit.addEventListener("click",calculate_wc);
+button_submit.onclick=calculate_wc;
